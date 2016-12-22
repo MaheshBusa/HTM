@@ -1,0 +1,92 @@
+body{
+	background-image:url("disney18.jpg");
+		
+	background-repeat:no-repeat;
+	background-size:100% 120%;
+	background-color:white; 
+	 box-sizing: border-box;
+	 margin-bottom:0;
+}
+div{
+	text-align:center;
+}
+div.mahesh{
+	
+	text-align:center;
+	padding-bottom:10px;
+}
+h1
+{ 
+text-align:center;
+font_size:200%;
+border :0px red;	
+color:white;
+text-align:center;
+padding:0;
+margin-bottom:0;
+}
+h2
+{
+	text-align:center;
+}
+.right 
+{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding:0px;
+   
+}
+figure{
+	padding-top:20px;
+}
+input[type=text], input[type=password] {
+    width: auto;
+    padding-top: 12px 20px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:#00FFFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+	text-align:right;
+}
+
+figcaption
+{
+	display:bold;
+	font-family:Impact, Charcoal, sans-serif;
+	font-color:#FFF5EE;
+}
+
+.
+span.psw {
+    float: center;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+	
+}
+.modal-content
+ {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: auto; /* Could be more or less, depending on screen size */
+}
+    
+
+

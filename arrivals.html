@@ -1,0 +1,85 @@
+<html>
+<link rel="stylesheet" href="arrivals.css">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+	<body>
+	<table>
+		<tr>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="btn btn-default pull-left">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</button>
+							<a class="navbar-brand"  style="margin:auto; float: none; text-align:center" href="http://www.disney.in//">Application Name</a>
+						<button type="button" class="btn btn-default" style="position: absolute; right: 0;">
+							<span class="glyphicon glyphicon-refresh"></span>
+						</button>
+		</tr>
+						<img src ="D:\Users\nabusa\Desktop\HTM\princess.png " alt="mickey">
+					</div>
+				</div>
+			</nav>
+	</table>
+	<ul class="nav nav-tabs row">
+		<li class="active col-sm-4"><a href="#">Arrivals</a></li>
+		<li class="col-sm-4"><a href="#">In House</a></li>
+		<li class="col-sm-4"><a href="#">Departure</a></li>
+	</ul>
+<br/>
+	<input type="text" name="search" placeholder="Search.."></br>
+	<br/>
+	<p id="date"></p>
+		<script>
+		var d = new Date();
+		d = d.toTimeString().split(" ");
+		var t = d[0];
+		document.getElementById("date").innerHTML = t;
+		</script>
+	<br/>;
+	<p>
+	Mahesh(Mr.)(Jr.)(Dr.)</br>
+	Banks
+	</p>
+	<p>
+		<i class="glyphicon glyphicon-cloud"></i>
+		<i class="glyphicon glyphicon-remove"></i>
+		<i class="glyphicon glyphicon-user"></i>
+	</p>
+	<br/>
+	<div class="container">
+            <ul class="nav nav-tabs nav-justified">
+                <div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span></div>
+				<div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></div>
+                <div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></div>
+                <div class="col-xs-3" style="text-align: center"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></div>
+            </ul>
+        </div>
+		<hr/>
+		<p>
+	<br>Mahesh(Mr.)(Jr.)(Dr.)</br>
+	Banks
+	</p>
+	<p>
+		<i class="glyphicon glyphicon-cloud"></i>
+		<i class="glyphicon glyphicon-remove"></i>
+		<i class="glyphicon glyphicon-user"></i>
+	</p>
+	<br/>
+	<div class="container">
+        <ul class="nav nav-tabs nav-justified">
+            <div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-bed" aria-hidden="true"></span></div>
+			<div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></div>
+            <div class="col-xs-3" style="padding-right:2px ; border-right:1px solid gainsboro; text-align: center"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></div>
+            <div class="col-xs-3" style="text-align: center"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></div>
+        </ul>
+    </div>
+</body>
+</html>

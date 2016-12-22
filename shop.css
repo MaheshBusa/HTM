@@ -1,0 +1,22 @@
+
+div.animate{
+	padding-top:70px;
+	text-align:center;
+}
+body{
+	background-image:url("light.jpg");
+	text-align:center;
+	padding-top:50px;
+}
+button{
+	padding-right:30px;
+	margin-bottom:20px;
+}
+input[type=password]
+{
+	margin-bottom:20px;
+}
+input[type=email]
+{
+	margin-bottom:20px;
+}

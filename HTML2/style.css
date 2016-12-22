@@ -1,0 +1,26 @@
+body
+{
+	text-align:center;
+	padding-top:100px;
+	background-color:lightblue;
+	background-image:url("nature.jpg");
+	
+}
+	
+	input[type=text]
+		{
+		padding:15px;
+	}
+	input[type=email]
+	{
+		padding:15px;
+	}
+	input[type=password]
+	{
+		padding:15px;
+	}
+	button
+	{
+		padding:15px;
+		background-color:green;
+	}

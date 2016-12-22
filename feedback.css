@@ -1,0 +1,71 @@
+
+div.container
+{
+	margin-top:30px;
+}
+div.dropdown
+{
+margin-top:50px;
+}
+div.text{
+	text-align:center;
+	margin-top:30px;
+}
+div.name{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+div.nam{
+	margin-bottom:30px;
+}
+div.num{
+	margin-top:30px;
+}	
+div.mail{
+	margin-top:30px;
+}
+.button{
+	margin-top:15px;
+	 border-radius: 5px;
+	 background-color:#3D3DCC;
+}
+body.smile{
+	text-align:center;
+}
+body.first{
+margin-top:50px;	
+background-color:#3D3DCC ;
+font-size:20px;
+}
+body.last{
+	text-align:center;
+}
+body.second{
+	background-color:#3D3DCC ;
+	}
+h1{
+	text-align:center;
+	padding-bottom:50px;
+}
+input[type=text]{
+   
+    padding: 8px 10px;
+    margin: 8px 0;
+            border-radius: 10px;
+}
+ input[type=email]{
+	  padding: 8px 10px;
+    margin: 8px 0;
+            border-radius: 10px;
+ }
+ textarea{
+	 border-radius: 10px;
+ }
+ form.ttt{
+	 text-align:center;
+	 margin-top:50px;
+	 background-color:#3D3DCC ;
+ }
+
+
+

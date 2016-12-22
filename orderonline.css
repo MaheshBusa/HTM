@@ -1,0 +1,16 @@
+.button
+{
+	text-align:center;
+	margin-top:50px;
+	
+}
+body
+{
+	background-image:url("download.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 120%;
+}
+h1
+{
+	text-align:center;
+}

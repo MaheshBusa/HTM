@@ -1,0 +1,44 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<link rel="stylesheet" href="cars.css">
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<br>Enter Name: <input type ="text" ng-model="msg"></br>
+<h1>Select a car:</h1>
+<select ng-model="selectedCar"  ng-options="c.name for c in cars | orderBy:'name'"></select>
+<h2>You selected: {{selectedCar.name}}</h2>
+<form>
+					<h3>Check to show a selected car:<h3>
+		<br><input type="checkbox" ng-click="toggle()"/></br>
+		<div ng-show="isChecked">{{selectedCar.name}}</div>
+		<br><button ng-click="showSelected()" ng-model="color">Click me!</button></br>
+ </form>
+ </div>
+ <script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+$scope.cars = [
+					{id:1,name:'VOLVO'},
+					{id:2,name:'BENZ'},
+					{id:3,name:'BMW'},
+					{id:4,name:'AUDI'}
+												];
+									$scope.selectedCar='';
+									$scope.msg = '';
+									$scope.showSelected = function(){
+									alert($scope.msg + '  '+$scope.selectedCar.name);
+										}	
+									$scope.isChecked = false;
+									$scope.toggle = function(){
+										if($scope.isChecked == true){
+											$scope.isChecked = false;
+										} else {
+											$scope.isChecked = true;
+										}
+									}
+									
+											});
+</script>
+</body>
+</html>
+
